@@ -1,0 +1,42 @@
+html, body{margin:0;padding:0;box-sizing:border-box;}
+.container{
+  background: #f2f2f2;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 30px auto;
+  padding: 20px;
+  width: 50%;
+}
+.painel{
+  padding: 10px;
+}
+.form-certificado{
+  padding: 10px;
+}
+.form-certificado label{
+  display: block;
+  padding-bottom: 5px;
+}
+.form-certificado input[type=text]{
+  padding: 10px;
+  width: 60%;
+}
+.form-certificado input[type=submit]{
+  background: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  width: 30%;
+}
+.form-certificado input[type=submit]:hover{
+  background: black;
+  color: white;
+}
+.by{
+  display: block;
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "romeu/gerador-certificados",
+    "description": "Simples gerador de certificados",
+    "require": {
+        "fpdf/fpdf": "^1.82"
+    },
+    "authors": [
+        {
+            "name": "Alex Oliveira",
+            "email": "alex.afortiori@gmail.com"
+        }
+    ]
+}
